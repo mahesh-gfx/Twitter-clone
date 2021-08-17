@@ -1,0 +1,57 @@
+body {
+  background: #000000;
+  margin: 0;
+  color: white;
+}
+.vh-100 {
+  height: 100vh;
+}
+
+.l-border {
+  border-left: 1px solid rgb(82, 82, 82);
+}
+
+.b-border {
+  border-bottom: 1px solid rgb(82, 82, 82);
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+#nav {
+  width: 23.5%;
+  padding: 0 30px;
+}
+
+#content {
+  width: 44.5%;
+}
+
+.logo {
+  height: auto;
+  max-width: 30px;
+}
+.t-white {
+  color: white;
+}
+
+.bg-black {
+  background: #000000;
+}
+
+.nav-but {
+  padding: 20px;
+  border: 1px solid white;
+}
+
+.svg {
+  height: auto;
+  max-width: 30px;
+}
