@@ -1,18 +1,71 @@
+@font-face {
+  font-family: "Chirp Bold";
+  src: url("https://abs.twimg.com/fonts/chirp-bold-web.woff");
+}
+
+@font-face {
+  font-family: "Chirp Heavy";
+  src: url("https://abs.twimg.com/fonts/chirp-heavy-web.woff");
+}
+
+@font-face {
+  font-family: "Chirp Medium";
+  src: url("https://abs.twimg.com/fonts/chirp-medium-web.woff");
+}
+
+@font-face {
+  font-family: "Chirp Regular";
+  src: url("https://abs.twimg.com/fonts/chirp-regular-web.woff");
+}
+
+.chirp-r {
+  font-family: "Chirp Regular";
+}
+
+.chirp-h {
+  font-family: "Chirp Heavy";
+}
+
+.chirp-m {
+  font-family: "Chirp Medium";
+}
+
 body {
   background: #000000;
+  font-family: "Chirp Regular";
   margin: 0;
   color: white;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.font-20-24-700 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.font-20-24-400 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
 }
 .vh-100 {
   height: 100vh;
 }
 
 .l-border {
-  border-left: 1px solid rgb(82, 82, 82);
+  border-left: 1px solid rgb(47, 51, 54);
 }
 
 .b-border {
-  border-bottom: 1px solid rgb(82, 82, 82);
+  border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.space-between {
+  justify-content: space-between;
 }
 
 .col {
@@ -27,7 +80,7 @@ body {
 
 #nav {
   width: 23.5%;
-  padding: 0 30px;
+  padding: 0 40px 0 50px;
 }
 
 #content {
@@ -37,21 +90,69 @@ body {
 .logo {
   height: auto;
   max-width: 30px;
+  padding: 10px;
 }
 .t-white {
-  color: white;
+  color: #d9d9d9;
 }
 
 .bg-black {
   background: #000000;
 }
 
+.border-rad-20em {
+  border-radius: 20em;
+}
+
+.td-none {
+  text-decoration: none;
+}
 .nav-but {
-  padding: 20px;
-  border: 1px solid white;
+  padding: 12px 15px;
+  width: fit-content;
+}
+
+.nav-but:hover {
+  background-color: rgba(217, 217, 217, 0.1);
+  transition: ease-in-out 0.2s;
 }
 
 .svg {
   height: auto;
-  max-width: 30px;
+  width: 25px;
+  margin-right: 15px;
+}
+
+.overflow-scroll {
+  overflow: auto;
+}
+
+.home-wrap {
+  min-height: 53px;
+  padding: 0 16px;
+}
+
+.just-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-left {
+  align-items: left;
+}
+.border-box {
+  box-sizing: border-box;
+}
+
+.w-100p {
+  width: 100%;
+}
+
+.tweet-but {
+  line-height: 20px;
+  padding: 15px;
+  background-color: #1da1f2;
 }
