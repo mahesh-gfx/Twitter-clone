@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="assets\css\app.css">
 </head>
 <div class="main row">
-  <div class="vh-100 col overflow-scroll" id="nav">
+  <div class="vh-100 col overflow-scroll space-between" id="nav">
     <div>
       <div class="logo">
         <img src="assets\images\svg\twitter.svg" alt="">
@@ -80,20 +80,32 @@
         </a>
 
         <a href="" class="tweet-but row align-center just-center t-white font-20-24-400 border-rad-20em td-none">
-          <div class="t-white">
+          <div class="">
             <span>Tweet</span>
           </div>
         </a>
 
       </div>
     </div>
-    <div class="profile">
+    <div class="account-menu-wrap align-center border-rad-20em">
+      <div class="account-menu row space-between align-center">
+        <div class="user-info row align-center">
+          <div class="profile-pic">
+            <img class="pp" src="assets\images\jpg\user.jpg" alt="">
+          </div>
+          <div class="user">
+            <span class="name font-15-400 t-white">Mahesh Adhikari</span><br>
+            <span class="user-name font-15-400 t-grey">@Mah14ADH</span>
+          </div>
+        </div>
 
-      <div><span>Name</span><br><span>@username</span></div>
-
+        <div class="options">
+          <a href="#"><img src="assets\images\svg\kebab.svg" class="svg-s" alt=""></a>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="l-border t-white" id="content">
+  <div class="content l-border t-white">
     <div class="home-wrap row b-border align-center border-box">
       <div class="row space-between w-100p">
         <span class="font-20-24-700 chirp-r">Home</span>
@@ -101,49 +113,54 @@
       </div>
     </div>
   </div>
-  <div class="right-sidebar l-border">
-    <div class="search-box">
-      <div class="search-icon">
-
-      </div>
-      <div class="search-input">
-        <input type="text" id="search-text" placeholder="Search">
+  <div class="right-sidebar l-border just-center">
+    <div class="search-wrap back-c-grey border-rad-20em align-center">
+      <div class="search-box row align-center">
+        <div class="search-icon">
+          <img src="assets\images\svg\search.svg" class="svg-s" alt="">
+        </div>
+        <div class="search-input">
+          <input type="search" id="search-text" placeholder="Search">
+        </div>
       </div>
     </div>
 
-    <div class="happening">
-      <span>What's Happening</span>
-      <div class="whats-hap-contents">
-        <div class="whats-wrap">
-          <div class="whats">
-            <div class="whats-text">
-              <div class="category">
-                <span>World news</span> <span>LIVE</span>
+    <div class="happening-wrap back-c-grey border-rad-10em">
+      <div class="happening">
+        <span>What's Happening</span>
+        <div class="whats-hap-contents">
+          <div class="whats-wrap">
+            <div class="whats">
+              <div class="whats-text">
+                <div class="category">
+                  <span>World news</span> <span>LIVE</span>
+                </div>
+                <div class="whats-description">
+                  Taliban say they will guarantee women's rights under the 'limits of Islam' following takeover of
+                  Afghanistan
+                </div>
               </div>
-              <div class="whats-description">
-                Taliban say they will guarantee women's rights under the 'limits of Islam' following takeover of
-                Afghanistan
+            </div>
+          </div>
+
+          <div class="whats-wrap">
+            <div class="whats">
+              <div class="whats-text">
+                <div class="category">
+                  <span>World news</span> <span>LIVE</span>
+                </div>
+                <div class="whats-description">
+                  Taliban say they will guarantee women's rights under the 'limits of Islam' following takeover of
+                  Afghanistan
+                </div>
               </div>
             </div>
           </div>
         </div>
-
-        <div class="whats-wrap">
-          <div class="whats">
-            <div class="whats-text">
-              <div class="category">
-                <span>World news</span> <span>LIVE</span>
-              </div>
-              <div class="whats-description">
-                Taliban say they will guarantee women's rights under the 'limits of Islam' following takeover of
-                Afghanistan
-              </div>
-            </div>
-          </div>
-        </div>
+        <span><a href="">Show more</a></span>
       </div>
-      <span><a href="">Show more</a></span>
     </div>
+
 
     <div class="follow">
       <div class="who">
