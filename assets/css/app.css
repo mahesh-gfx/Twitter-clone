@@ -37,6 +37,10 @@ body {
   color: white;
 }
 
+.main {
+  position: absolute;
+}
+
 .fixed {
   position: fixed;
 }
@@ -115,6 +119,11 @@ body {
 .t-grey {
   color: #6e767d;
 }
+
+.t-blue {
+  color: #1da1f2;
+}
+
 .bg-black {
   background: #000000;
 }
@@ -153,13 +162,15 @@ body {
   margin-right: 12px;
 }
 
-.overflow-scroll {
+.overflow-auto {
   overflow: auto;
 }
 
+.pad-0-16 {
+  padding: 0 16px;
+}
 .home-wrap {
   min-height: 53px;
-  padding: 0 16px;
 }
 
 .just-center {
@@ -186,12 +197,22 @@ body {
 }
 
 .tweet-but {
+  margin: 8px 0 0;
+  min-width: 5px;
   line-height: 20px;
   padding: 15px;
   background-color: #1da1f2;
   font-size: 17px;
   color: white;
   font-weight: 400;
+}
+
+.tweet-but:hover {
+  background-color: #1a91da;
+}
+
+.button {
+  background-color: white;
 }
 
 .account-menu-wrap {
@@ -201,6 +222,12 @@ body {
 
 .pp {
   padding: 0 10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.pp-1 {
   height: 40px;
   width: 40px;
   border-radius: 50%;
@@ -233,9 +260,6 @@ body {
   background-color: #15181c;
 }
 
-.whats:hover {
-  background-color: #1c1f23;
-}
 .pad-12-16 {
   padding: 12px 16px;
 }
@@ -246,6 +270,9 @@ body {
   line-height: 24px;
 }
 
+.whats:hover {
+  background-color: #1c1f23;
+}
 .whats-text {
   margin: 0px 12px 0 0;
 }
@@ -253,7 +280,6 @@ body {
   height: 68px;
   width: 68px;
 }
-
 .whats-description {
   font-size: 15px;
   line-height: 20px;
@@ -279,6 +305,14 @@ body {
   text-decoration: none;
 }
 
-a {
-  text-decoration: none;
+.follow-but {
+  min-height: 32px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #0f1419;
+}
+
+.profile-pic {
+  margin: 0 12px 0;
 }
