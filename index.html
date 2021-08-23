@@ -10,7 +10,7 @@
 </head>
 <div class="main row">
 
-  <div class="vh-100 col overflow-auto space-between" id="nav">
+  <div class="vh-100 col overflow-auto space-between sticky" id="nav">
     <div>
       <div class="logo">
         <img src="assets\images\svg\twitter.svg" alt="">
@@ -110,7 +110,7 @@
 
 
   <div class="content l-border t-white">
-    <div class="home-wrap pad-0-16 row b-border align-center border-box">
+    <div class="home-wrap pad-0-16 row b-border align-center border-box sticky bg-black">
       <div class="row space-between w-100p">
         <span class="font-20-24-700 chirp-r">Home</span>
         <div class="svg"><img src="assets\images\svg\top-tweets.svg" alt=""></div>
@@ -121,23 +121,33 @@
         <div class="profile-pic">
           <img class="pp-1" src="assets\images\jpg\user.jpg" alt="">
         </div>
+        <div class="post-content-wrap">
+          <div class="post-text">
+            <div class="text-input" onclick="tweetText();" contenteditable="true"></div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
   <div class="right-sidebar l-border just-center">
-    <div class="search-wrap back-c-grey border-rad-20em align-center">
-      <div class="search-box row align-center">
-        <div class="search-input row">
-          <div class="search-icon align-right row">
-            <img src="assets\images\svg\search.svg" class="svg-s" alt="">
-          </div>
-          <label for="search">
-            <input type="search" name="search" id="search-text" placeholder="Search Twitter">
-          </label>
+    <div class="bg-black sticky search-wrap">
+      <div class=" back-c-grey border-rad-20em align-center">
+        <div class="search-box row align-center">
+          <div class="search-input row">
+            <div class="search-icon align-right row">
+              <img src="assets\images\svg\search.svg" class="svg-s" alt="">
+            </div>
+            <label for="search">
+              <input type="search" name="search" id="search-text" placeholder="Search Twitter">
+            </label>
 
+          </div>
         </div>
       </div>
     </div>
+
+
+
 
     <div class="happening-wrap border-rad-1em">
       <div class="happening">

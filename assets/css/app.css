@@ -45,6 +45,11 @@ body {
   position: fixed;
 }
 
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
 .font-20-24-700 {
   font-size: 20px;
   line-height: 24px;
@@ -102,10 +107,10 @@ body {
 }
 
 .right-sidebar {
-  margin: 5px;
+  margin: 0 5px 5px;
   max-width: 350px;
   width: 32%;
-  padding: 5px 30px;
+  padding: 0 30px;
 }
 .logo {
   height: auto;
@@ -233,6 +238,10 @@ body {
   border-radius: 50%;
 }
 
+.search-wrap {
+  padding: 10px 0;
+}
+
 .search-input {
   padding: 2px 5px 3px 15px;
 }
@@ -315,4 +324,13 @@ body {
 
 .profile-pic {
   margin: 0 12px 0;
+}
+
+.text-input {
+  word-wrap: break-word;
+  max-width: 500px;
+}
+
+.text-input:empty::before {
+  content: "What's happening?";
 }
