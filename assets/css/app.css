@@ -94,11 +94,13 @@ body {
 
 .content {
   width: 44.5%;
+  min-width: 600px;
 }
 
 .right-sidebar {
   margin: 5px;
-  max-width: 32%;
+  max-width: 350px;
+  width: 32%;
   padding: 5px 30px;
 }
 .logo {
@@ -121,7 +123,7 @@ body {
   border-radius: 20em;
 }
 
-.border-rad-10em {
+.border-rad-1em {
   border-radius: 1em;
 }
 
@@ -171,6 +173,10 @@ body {
 .align-left {
   align-items: left;
 }
+
+.align-right {
+  align-items: right;
+}
 .border-box {
   box-sizing: border-box;
 }
@@ -200,19 +206,79 @@ body {
   border-radius: 50%;
 }
 
+.search-input {
+  padding: 2px 5px 3px 15px;
+}
+
 #search-text {
+  padding: 0.7em;
   background-color: transparent;
   border: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
   outline: none;
+  font-size: 15px;
+  font-weight: 400;
+  width: 100%;
 }
 
 #search-icon {
   padding: 5px 0px 5px 15px;
+  margin-left: 12px;
 }
 
-.search-input {
-  padding: 0.7em;
+.happening-wrap {
+  margin: 15px 0;
+  background-color: #15181c;
+}
+
+.whats:hover {
+  background-color: #1c1f23;
+}
+.pad-12-16 {
+  padding: 12px 16px;
+}
+.happening-head {
+  font-family: "Chirp heavy";
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+}
+
+.whats-text {
+  margin: 0px 12px 0 0;
+}
+.whats-img {
+  height: 68px;
+  width: 68px;
+}
+
+.whats-description {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+  margin: 2px 0;
+}
+.font-13-16-400 {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.dot,
+.dot span {
+  font-weight: 900;
+  padding: 0 2px;
+  position: relative;
+  bottom: 1px;
+}
+
+.more {
+  padding: 16px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
 }
