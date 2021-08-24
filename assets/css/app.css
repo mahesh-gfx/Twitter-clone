@@ -107,7 +107,6 @@ body {
 }
 
 .right-sidebar {
-  margin: 0 5px 5px;
   max-width: 350px;
   width: 32%;
   padding: 0 30px;
@@ -314,7 +313,7 @@ body {
   text-decoration: none;
 }
 
-.follow-but {
+.small-button {
   min-height: 32px;
   font-size: 14px;
   font-weight: 700;
@@ -333,4 +332,15 @@ body {
 
 .text-input:empty::before {
   content: "What's happening?";
+}
+.post-image-wrap {
+  max-height: max-content;
+  max-width: 500px;
+  overflow: hidden;
+}
+.post-image {
+  max-height: auto;
+  max-width: 100%;
+  position: relative;
+  z-index: -1;
 }
