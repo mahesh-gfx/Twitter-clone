@@ -239,6 +239,7 @@ body {
 
 .search-wrap {
   padding: 10px 0;
+  z-index: 2;
 }
 
 .search-input {
@@ -333,7 +334,13 @@ body {
 .text-input:empty::before {
   content: "What's happening?";
 }
+
+.posts-wrap {
+  padding: 16px;
+}
+
 .post-image-wrap {
+  margin: 10px 0 0;
   max-height: max-content;
   max-width: 500px;
   overflow: hidden;
@@ -343,4 +350,12 @@ body {
   max-width: 100%;
   position: relative;
   z-index: -1;
+}
+
+.post-actions {
+  padding: 12px 0 0;
+}
+
+.user {
+  padding-bottom: 3px;
 }
