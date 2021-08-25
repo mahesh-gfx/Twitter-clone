@@ -329,14 +329,31 @@ body {
 .text-input {
   word-wrap: break-word;
   max-width: 500px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  outline: none;
+  cursor: text;
+  padding: 12px 0;
 }
 
 .text-input:empty::before {
   content: "What's happening?";
+  color: #6e767d;
+}
+
+.create-post-wrap {
+  padding: 12px;
 }
 
 .posts-wrap {
   padding: 16px;
+}
+
+.post-centent-wrap,
+.post-text,
+.text-input {
+  min-width: 500px;
 }
 
 .post-image-wrap {
@@ -358,4 +375,15 @@ body {
 
 .user {
   padding-bottom: 3px;
+}
+
+.reply-toggle {
+  padding: 0 0 12px;
+  color: #1da1f2;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.media-options-wrap {
+  padding: 12px 0 0;
 }
